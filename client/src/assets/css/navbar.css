@@ -1,0 +1,36 @@
+.student-navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 16px;
+    background-color: #FFCC00; /* Bumble yellow */
+    color: black;
+    font-weight: bold;
+}
+
+.student-navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    background-color: #FFF5CC; /* Light yellow for links */
+}
+
+.student-navbar a:hover {
+    background-color: #FFD700; /* Darker yellow for hover */
+}
+
+.student-navbar button.logout-btn {
+    background-color: #FF6F61; /* Coral for logout button */
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.student-navbar button.logout-btn:hover {
+    background-color: #E64A45; /* Darker coral for hover */
+}
